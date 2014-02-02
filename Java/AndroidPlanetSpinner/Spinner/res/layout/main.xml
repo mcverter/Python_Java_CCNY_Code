@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2010 The Android Open Source Project
+
+  File: main.xml
+  Updated by: Mitchell Verter
+  Last Revision: 7/19/2012
+
+ORIGINAL LICENSING:
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Creates a Linear Layout View to contain the spinner -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+        Creates a spinner widget called Spinner01, within the Linear Layout
+        The prompt text comes from the string "planet_prompt" in strings.xml
+    -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="225dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="5dp"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/planet_prompt" />
+
+  <!--
+        Creates a button called NextButton.
+        The label comes from the string "Next" in strings.xml
+    -->
+        
+        <Button
+            android:id="@+id/NextButton"
+            android:layout_width="75dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:text="@string/Next" />
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+ <!-- Creates a TextView called SpinnerResult, to display the spinner result. -->
+        
+        <TextView
+            android:id="@+id/SpinnerResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:textStyle="bold" />
+
+<!-- Format a table to layout further data. -->
+        
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:stretchColumns="1" >
+
+  <!-- Creates an ImageView PlanetImage, to display picture of planet. -->
+           
+            <ImageView
+                android:id="@+id/PlanetImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp" />
+
+  <!-- Creates a TableRow to show the number of moons.
+      Row contains a TextView label, stored in strings.xml called "moons_label"
+      And a TextView MoonsResult to display the value.   -->            
+            <TableRow android:padding="10dp" >
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:text="@string/moons_label" />
+                <TextView android:id="@+id/MoonsResult" />
+            </TableRow>
+
+  <!-- Creates a TableRow to show the size relative to Earth.
+      Row contains a TextView label, stored in strings.xml called "size_label"
+      And a TextView SizeResult to display the value.   -->          
+            <TableRow android:padding="10dp" >
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:text="@string/size_label" />
+                <TextView android:id="@+id/SizeResult" />
+            </TableRow>
+
+<!-- Creates a TableRow to show the distance from the sun.
+      Row contains a TextView label, stored in strings.xml called "distance_label"
+      And a TextView DistanceResult to display the value.   -->                  
+            <TableRow android:padding="10dp" >
+                <TextView
+                    android:layout_marginRight="10dp"
+                    android:text="@string/distance_label" />
+                <TextView android:id="@+id/DistanceResult" />
+            </TableRow>
+            
+            
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

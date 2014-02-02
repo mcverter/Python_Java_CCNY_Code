@@ -1,0 +1,453 @@
+OVERALL RESULTS for COURSE GRADES
+Testing Set:
+[[38 43 40 85]
+ [21 37 56 75]
+ [33 50 39 95]]
+test error is 0.097233
+Complete Chart (Unknowns at bottom)
+quiz_grade	final_exam_grade	midterm_grade	course_grade
+[[ 38.          43.          40.          85.        ]
+ [ 21.          37.          56.          75.        ]
+ [ 33.          50.          39.          95.        ]
+ [ 21.          45.          51.          95.        ]
+ [ 36.          48.          45.          95.        ]
+ [ 36.          40.          29.          85.        ]
+ [ 30.          35.          33.          85.        ]
+ [ 18.          66.          48.          95.        ]
+ [ 19.          32.          29.          75.        ]
+ [ 12.          41.          27.          75.        ]
+ [ 20.          23.          36.          85.        ]
+ [ 20.          55.          39.          85.        ]
+ [ 25.          30.          39.          85.        ]
+ [ 25.          42.          36.          75.        ]
+ [ 33.          57.          38.          85.        ]
+ [ 39.          69.          54.          95.        ]
+ [ 38.          49.          51.          95.        ]
+ [ 15.          28.          28.          45.4157218 ]
+ [ 27.          47.          45.          85.54378773]
+ [ 16.          62.          32.          91.67687627]]
+Global Relative Error for Knowns:
+0.149376508984
+
+
+
+INDIVIDUAL RESULTS:
+EQUATION IS:
+(0.004188 *( quiz_grade ** 2 )) + 
+ (1.278759 *( final_exam_grade ** 1 )) + 
+  (0.011056 *( midterm_grade ** 2 )) 
+ = course_grade 
+
+
+
+FOR ROW:
+[38 43 40 85]
+Expected Result: 78.724036.  Actual Result: 85 
+Difference:  6.275964.  Weighted Differene: 0.073835
+
+
+FOR ROW:
+[21 37 56 75]
+Expected Result: 83.833801.  Actual Result: 75 
+Difference:  8.833801.  Weighted Differene: 0.117784
+
+
+FOR ROW:
+[33 50 39 95]
+Expected Result: 85.315229.  Actual Result: 95 
+Difference:  9.684771.  Weighted Differene: 0.101945
+
+
+FOR ROW:
+[21 45 51 95]
+Expected Result: 88.148687.  Actual Result: 95 
+Difference:  6.851313.  Weighted Differene: 0.072119
+
+
+FOR ROW:
+[36 48 45 95]
+Expected Result: 89.197015.  Actual Result: 95 
+Difference:  5.802985.  Weighted Differene: 0.061084
+
+
+FOR ROW:
+[36 40 29 85]
+Expected Result: 65.876149.  Actual Result: 85 
+Difference:  19.123851.  Weighted Differene: 0.224986
+
+
+FOR ROW:
+[30 35 33 85]
+Expected Result: 60.565988.  Actual Result: 85 
+Difference:  24.434012.  Weighted Differene: 0.287459
+
+
+FOR ROW:
+[18 66 48 95]
+Expected Result: 111.228893.  Actual Result: 95 
+Difference:  16.228893.  Weighted Differene: 0.170830
+
+
+FOR ROW:
+[19 32 29 75]
+Expected Result: 51.730510.  Actual Result: 75 
+Difference:  23.269490.  Weighted Differene: 0.310260
+
+
+FOR ROW:
+[12 41 27 75]
+Expected Result: 61.092271.  Actual Result: 75 
+Difference:  13.907729.  Weighted Differene: 0.185436
+
+
+FOR ROW:
+[20 23 36 85]
+Expected Result: 45.415675.  Actual Result: 85 
+Difference:  39.584325.  Weighted Differene: 0.465698
+
+
+FOR ROW:
+[20 55 39 85]
+Expected Result: 88.823645.  Actual Result: 85 
+Difference:  3.823645.  Weighted Differene: 0.044984
+
+
+FOR ROW:
+[25 30 39 85]
+Expected Result: 57.796928.  Actual Result: 85 
+Difference:  27.203072.  Weighted Differene: 0.320036
+
+
+FOR ROW:
+[25 42 36 75]
+Expected Result: 70.654338.  Actual Result: 75 
+Difference:  4.345662.  Weighted Differene: 0.057942
+
+
+FOR ROW:
+[33 57 38 85]
+Expected Result: 93.415195.  Actual Result: 85 
+Difference:  8.415195.  Weighted Differene: 0.099002
+
+
+FOR ROW:
+[39 69 54 95]
+Expected Result: 126.844463.  Actual Result: 95 
+Difference:  31.844463.  Weighted Differene: 0.335205
+
+
+FOR ROW:
+[38 49 51 95]
+Expected Result: 97.464061.  Actual Result: 95 
+Difference:  2.464061.  Weighted Differene: 0.025937
+
+
+
+
+*********************************************************************************
+OVERALL RESULTS for FINAL EXAM GRADES
+Testing Set:
+[[95 21 45 51]
+ [85 30 35 33]
+ [95 39 69 54]]
+test error is 0.097697
+Complete Chart (Unknowns at bottom)
+course_grade	quiz_grade	midterm_grade	final_exam_grade
+[[ 95.          21.          45.          51.        ]
+ [ 85.          30.          35.          33.        ]
+ [ 95.          39.          69.          54.        ]
+ [ 85.          36.          40.          29.        ]
+ [ 85.          33.          57.          38.        ]
+ [ 75.          19.          32.          29.        ]
+ [ 85.          20.          23.          36.        ]
+ [ 95.          36.          48.          45.        ]
+ [ 75.          12.          41.          27.        ]
+ [ 95.          33.          50.          39.        ]
+ [ 75.          21.          37.          56.        ]
+ [ 85.          25.          30.          39.        ]
+ [ 95.          18.          66.          48.        ]
+ [ 85.          38.          43.          40.        ]
+ [ 75.          25.          42.          36.        ]
+ [ 85.          20.          55.          39.        ]
+ [ 95.          38.          49.          51.        ]
+ [ 85.           8.          52.          39.90039187]
+ [ 95.          25.          51.          49.50153692]
+ [ 75.          21.          33.          30.92595021]]
+Global Relative Error for Knowns:
+0.105036255895
+
+
+
+INDIVIDUAL RESULTS:
+EQUATION IS:
+(0.005617 *( course_grade ** 2 )) + 
+ (-0.000950 *( quiz_grade ** 2 )) + 
+  (-0.000229 *( midterm_grade ** 2 )) 
+ = final_exam_grade 
+
+
+
+FOR ROW:
+[95 21 45 51]
+Expected Result: 49.808383.  Actual Result: 51 
+Difference:  1.191617.  Weighted Differene: 0.023365
+
+
+FOR ROW:
+[85 30 35 33]
+Expected Result: 39.445773.  Actual Result: 33 
+Difference:  6.445773.  Weighted Differene: 0.195326
+
+
+FOR ROW:
+[95 39 69 54]
+Expected Result: 48.155248.  Actual Result: 54 
+Difference:  5.844752.  Weighted Differene: 0.108236
+
+
+FOR ROW:
+[85 36 40 29]
+Expected Result: 38.983717.  Actual Result: 29 
+Difference:  9.983717.  Weighted Differene: 0.344266
+
+
+FOR ROW:
+[85 33 57 38]
+Expected Result: 38.802045.  Actual Result: 38 
+Difference:  0.802045.  Weighted Differene: 0.021106
+
+
+FOR ROW:
+[75 19 32 29]
+Expected Result: 31.016827.  Actual Result: 29 
+Difference:  2.016827.  Weighted Differene: 0.069546
+
+
+FOR ROW:
+[85 20 23 36]
+Expected Result: 40.080217.  Actual Result: 36 
+Difference:  4.080217.  Weighted Differene: 0.113339
+
+
+FOR ROW:
+[95 36 48 45]
+Expected Result: 48.932481.  Actual Result: 45 
+Difference:  3.932481.  Weighted Differene: 0.087388
+
+
+FOR ROW:
+[75 12 41 27]
+Expected Result: 31.072191.  Actual Result: 27 
+Difference:  4.072191.  Weighted Differene: 0.150822
+
+
+FOR ROW:
+[95 33 50 39]
+Expected Result: 49.084090.  Actual Result: 39 
+Difference:  10.084090.  Weighted Differene: 0.258566
+
+
+FOR ROW:
+[75 21 37 56]
+Expected Result: 30.861725.  Actual Result: 56 
+Difference:  25.138275.  Weighted Differene: 0.448898
+
+
+FOR ROW:
+[85 25 30 39]
+Expected Result: 39.781459.  Actual Result: 39 
+Difference:  0.781459.  Weighted Differene: 0.020037
+
+
+FOR ROW:
+[95 18 66 48]
+Expected Result: 49.384813.  Actual Result: 48 
+Difference:  1.384813.  Weighted Differene: 0.028850
+
+
+FOR ROW:
+[85 38 43 40]
+Expected Result: 38.786062.  Actual Result: 40 
+Difference:  1.213938.  Weighted Differene: 0.030348
+
+
+FOR ROW:
+[75 25 42 36]
+Expected Result: 30.596396.  Actual Result: 36 
+Difference:  5.403604.  Weighted Differene: 0.150100
+
+
+FOR ROW:
+[85 20 55 39]
+Expected Result: 39.507698.  Actual Result: 39 
+Difference:  0.507698.  Weighted Differene: 0.013018
+
+
+FOR ROW:
+[95 38 49 51]
+Expected Result: 48.769691.  Actual Result: 51 
+Difference:  2.230309.  Weighted Differene: 0.043732
+test error is 0.063521
+[[ 95.          21.          51.          45.        ]
+ [ 95.          33.          39.          50.        ]
+ [ 75.          19.          29.          32.        ]
+ [ 75.          12.          27.          41.        ]
+ [ 85.          20.          39.          55.        ]
+ [ 95.          36.          45.          48.        ]
+ [ 75.          21.          56.          37.        ]
+ [ 95.          38.          51.          49.        ]
+ [ 95.          39.          54.          69.        ]
+ [ 85.          30.          33.          35.        ]
+ [ 95.          18.          48.          66.        ]
+ [ 85.          33.          38.          57.        ]
+ [ 85.          38.          40.          43.        ]
+ [ 85.          25.          39.          30.        ]
+ [ 85.          36.          29.          40.        ]
+ [ 85.          20.          36.          23.        ]
+ [ 75.          25.          36.          42.        ]
+ [ 75.          14.          40.          35.88957305]]
+
+
+
+
+*********************************************************************************
+OVERALL RESULTS for MIDTERM GRADES
+Testing Set:
+[[95 21 51 45]
+ [95 33 39 50]
+ [75 19 29 32]]
+test error is 0.063521
+Complete Chart (Unknowns at bottom)
+course_grade	quiz_grade	final_exam_grade	midterm_grade
+[[ 95.          21.          51.          45.        ]
+ [ 95.          33.          39.          50.        ]
+ [ 75.          19.          29.          32.        ]
+ [ 75.          12.          27.          41.        ]
+ [ 85.          20.          39.          55.        ]
+ [ 95.          36.          45.          48.        ]
+ [ 75.          21.          56.          37.        ]
+ [ 95.          38.          51.          49.        ]
+ [ 95.          39.          54.          69.        ]
+ [ 85.          30.          33.          35.        ]
+ [ 95.          18.          48.          66.        ]
+ [ 85.          33.          38.          57.        ]
+ [ 85.          38.          40.          43.        ]
+ [ 85.          25.          39.          30.        ]
+ [ 85.          36.          29.          40.        ]
+ [ 85.          20.          36.          23.        ]
+ [ 75.          25.          36.          42.        ]
+ [ 75.          14.          40.          35.88957305]]
+Global Relative Error for Knowns:
+0.169288474749
+
+
+
+INDIVIDUAL RESULTS:
+EQUATION IS:
+(0.003295 *( course_grade ** 2 )) + 
+ (0.170932 *( quiz_grade ** 1 )) + 
+  (0.374108 *( final_exam_grade ** 1 )) 
+ = midterm_grade 
+
+
+
+FOR ROW:
+[95 21 51 45]
+Expected Result: 52.402974.  Actual Result: 45 
+Difference:  7.402974.  Weighted Differene: 0.164511
+
+
+FOR ROW:
+[95 33 39 50]
+Expected Result: 49.964861.  Actual Result: 50 
+Difference:  0.035139.  Weighted Differene: 0.000703
+
+
+FOR ROW:
+[75 19 29 32]
+Expected Result: 32.629045.  Actual Result: 32 
+Difference:  0.629045.  Weighted Differene: 0.019658
+
+
+FOR ROW:
+[75 12 27 41]
+Expected Result: 30.684306.  Actual Result: 41 
+Difference:  10.315694.  Weighted Differene: 0.251602
+
+
+FOR ROW:
+[85 20 39 55]
+Expected Result: 41.812440.  Actual Result: 55 
+Difference:  13.187560.  Weighted Differene: 0.239774
+
+
+FOR ROW:
+[95 36 45 48]
+Expected Result: 52.722304.  Actual Result: 48 
+Difference:  4.722304.  Weighted Differene: 0.098381
+
+
+FOR ROW:
+[75 21 56 37]
+Expected Result: 43.071823.  Actual Result: 37 
+Difference:  6.071823.  Weighted Differene: 0.164103
+
+
+FOR ROW:
+[95 38 51 49]
+Expected Result: 55.308816.  Actual Result: 49 
+Difference:  6.308816.  Weighted Differene: 0.128751
+
+
+FOR ROW:
+[95 39 54 69]
+Expected Result: 56.602071.  Actual Result: 69 
+Difference:  12.397929.  Weighted Differene: 0.179680
+
+
+FOR ROW:
+[85 30 33 35]
+Expected Result: 41.277111.  Actual Result: 35 
+Difference:  6.277111.  Weighted Differene: 0.179346
+
+
+FOR ROW:
+[95 18 48 66]
+Expected Result: 50.767855.  Actual Result: 66 
+Difference:  15.232145.  Weighted Differene: 0.230790
+
+
+FOR ROW:
+[85 33 38 57]
+Expected Result: 43.660446.  Actual Result: 57 
+Difference:  13.339554.  Weighted Differene: 0.234027
+
+
+FOR ROW:
+[85 38 40 43]
+Expected Result: 45.263321.  Actual Result: 43 
+Difference:  2.263321.  Weighted Differene: 0.052635
+
+
+FOR ROW:
+[85 25 39 30]
+Expected Result: 42.667099.  Actual Result: 30 
+Difference:  12.667099.  Weighted Differene: 0.422237
+
+
+FOR ROW:
+[85 36 29 40]
+Expected Result: 40.806270.  Actual Result: 40 
+Difference:  0.806270.  Weighted Differene: 0.020157
+
+
+FOR ROW:
+[85 20 36 23]
+Expected Result: 40.690116.  Actual Result: 23 
+Difference:  17.690116.  Weighted Differene: 0.769135
+
+
+FOR ROW:
+[75 25 36 42]
+Expected Result: 36.273392.  Actual Result: 42 
+Difference:  5.726608.  Weighted Differene: 0.136348

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  File: strings.xml
+  Updated by: Mitchell Verter 
+  Last Revision: 7/19/2012
+  
+     Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+    The string named "app_name" defines the application's visible name.
+    The string array "Planets" defines an array of 9 strings. The application loads
+    this array into the spinner's array adapter.
+    The string "planet_prompt" defines the prompt for the result text box.
+-->
+<resources>
+
+    <string name="app_name">Spinner</string>
+    <string name="planet_prompt">Select a planet</string>
+        
+    <string name="Next">Next</string>
+    
+    <string name="moons_label">Number of Moons:  </string>
+    <string name="size_label">Size Relative to Earth:  </string>
+    <string name="distance_label">Distance from Sun (km):  </string>
+    
+    <!--  
+    I don't like the fact that we have to coordinate 4 separate arrays to initialize
+    the data.  This seems very error prone.  Is the XML for Android flexible enough
+    to tolerate heirarchical representation?
+     -->
+    <string-array name="Planets">
+        <item>Mercury </item>
+        <item>Venus </item>
+        <item>Earth </item>
+        <item>Mars </item>
+        <item> Ceres </item>
+        <item> Jupiter </item>
+        <item>Saturn </item>
+        <item>Uranus </item>
+        <item>Neptune </item>
+        <item>Pluto </item>
+        <item> Haumea </item>
+        <item>Makemake </item>
+        <item>Eris </item>
+    </string-array>
+
+    <string-array name="Sizes">
+        <item> 0.056 </item>
+        <item> 0.866 </item>
+        <item> 1 </item>
+        <item> 0.151 </item>
+        <item> 0.00015 </item>
+        <item> 1321.3 </item>
+        <item> 763.59 </item>
+        <item> 63.086 </item>
+        <item> 57.74 </item>
+        <item> 0.0059 </item>
+        <item> 0.00066 </item>
+        <item> 0.0005 </item>
+        <item> 0.0028 </item>
+    </string-array>
+ 
+    <string-array name="Distances">
+        <item> 57909100 </item>
+        <item> 108208930 </item>
+        <item> 149598261 </item>
+        <item> 227939100 </item>
+        <item> 413832587 </item>
+        <item> 778547200 </item>
+        <item> 1433449370 </item>
+        <item> 2876679082 </item>
+        <item> 4503443661 </item>
+        <item> 5874000000 </item>
+        <item> 6452000000 </item>
+        <item> 6850000000 </item>
+        <item> 10120000000 </item>
+    </string-array>
+   
+    <string-array name="Moons">
+        <item> 0 </item>
+        <item> 0 </item>
+        <item> 1 </item>
+        <item> 2 </item>
+        <item> 0 </item>
+        <item> 66 </item>
+        <item> 62 </item>
+        <item> 27 </item>
+        <item> 13 </item>
+        <item> 5 </item>
+        <item> 2 </item>
+        <item> 0 </item>
+        <item> 1 </item>
+    </string-array>
+
+
+
+</resources>
+
+<!--
+       	new Planet ("Mercury", 0, 57909100, 0.056 );
+		new Planet ("Venus", 0, 108208930, 0.866);
+		new Planet ("Earth", 1, 149598261 , 1);
+		new Planet ("Mars", 2, 227939100, 0.151);
+		new Planet("Ceres", 0,   413832587, 0.00015);
+		new Planet ("Jupiter", 66,778547200,1321.3);
+		new Planet ("Saturn", 62, 1433449370,763.59);
+		new Planet ("Uranus", 27, 2876679082L, 63.086);
+		new Planet ("Neptune", 13, 4503443661L, 57.74);
+		new Planet ("Pluto", 5, 5874000000L, 0.0059);
+		new Planet("Haumea",2,   6452000000, .00066 );
+		new Planet("Makemake", 0,  6850000000, 0.0005);
+		new Planet("Eris", 1, 	 10120000000, 0.0028);
+-->

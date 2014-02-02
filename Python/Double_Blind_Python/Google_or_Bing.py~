@@ -1,0 +1,41 @@
+import requests
+import re
+from bs4 import BeautifulSoup
+
+#https://www.google.com/search?q=carrots
+GOOGLE = "https://www.google.com/search?q="
+
+#http://www.bing.com/search?q=carrots&
+BING="https://www.google.com/search?q="
+
+
+def do_query(query):
+    google_query=GOOGLE + query
+    goo_req = requests.get(google_query)
+    soup = BeautifulSoup(goo_req.text)
+#    print goo_req.text
+    all_links = soup.find_all("a")
+    for link in all_links:
+        lunk = str(link)
+        if ((re.search("\"gb\d\"", lunk)) or
+            (re.search("\"q\"", lunk)) or 
+            (re.search("\"http://maps.google.com", lunk)) or
+            (re.search("\"\/webhp\?hl=en\"", lunk)) or 
+#            (re.search("\"\/url\?q=https:\/\/webcache.googleusercontent.com\/", lunk)) or 
+            (re.search("\"q\"", lunk)) or 
+            (re.search("\"\/search\?q=", lunk))):
+            1
+        else:
+            print lunk
+
+
+
+
+def main():
+    query=raw_input("Please enter a query term:  ")
+    do_query(query)
+    
+
+
+if __name__ == '__main__':
+    main()

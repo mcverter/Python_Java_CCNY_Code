@@ -1,0 +1,137 @@
+9, 1, chelsea, 2013-05-08
+1, 9, sophia myles, 2013-05-09
+1, 9, monica bellucci, 2013-05-09
+8, 7, barcelona, 2013-05-09
+5, 6, alan turing, 2013-05-09
+5, 7, russell crowe, 2013-05-09
+9, 8, ricordati di me, 2013-05-09
+7, 9, morphogenesis, 2013-05-09
+9, 7, troy, 2013-05-09
+9, 9, unix, 2013-05-09
+4, 7, mac, 2013-05-09
+9, 8, andry shevchenko, 2013-05-09
+8, 6, evolutionary algorithms, 2013-05-09
+9, 4, the secret the secret life of chaos, 2013-05-09
+5, 8, bbc four, 2013-05-09
+6, 9, top gear, 2013-05-09
+7, 9, ihop, 2013-05-09
+5, 7, wv, 2013-05-09
+6, 7, vw, 2013-05-09
+7, 9, gianluca grignani, 2013-05-09
+9, 7, il re del niente, 2013-05-09
+9, 7, el juego de sandy, 2013-05-09
+5, 7, il gioco di Sandy, 2013-05-09
+9, 9, una cosa strana, 2013-05-09
+6, 7, mi historia entre tus dedos, 2013-05-09
+9, 5, romantico rock show, 2013-05-09
+5, 8, laura pausini, 2013-05-09
+9, 9, quantum bird, 2013-05-09
+9, 7, eros angelo disteso al sole, 2013-05-09
+1, 1, un tren a marte, 2013-05-09
+8, 7, Primo Tren Per Marte , 2013-05-09
+7, 7, falco a meta, 2013-05-09
+8, 5, bambina gianluca, 2013-05-09
+5, 7, fullmetal alchemist, 2013-05-09
+1, 1, mind games, 2013-05-09
+9, 7, mind games JOHN LENNON, 2013-05-09
+6, 8, imagine , 2013-05-09
+9, 9, google bing, 2013-05-09
+9, 6, volvo, 2013-05-09
+7, 9, bugatti, 2013-05-09
+5, 5, gladiator, 2013-05-09
+9, 7, samsung, 2013-05-09
+5, 9, iphone, 2013-05-09
+1, 1, information bbc documentary, 2013-05-09
+5, 5, order and disorder, 2013-05-09
+4, 8, fractals, 2013-05-09
+5, 5, best movie 2012, 2013-05-09
+1, 9, yahoo CEO, 2013-05-09
+1, 9, intel's new architecture, 2013-05-09
+5, 5, best system on chip architecture, 2013-05-09
+9, 5, haswell, 2013-05-09
+6, 6, stuxnet, 2013-05-09
+9, 8, best gaming computer of the year, 2013-05-09
+8, 8, blue whales, 2013-05-09
+9, 1, mermaids exit, 2013-05-09
+7, 5, LED technology, 2013-05-09
+6, 8, arstechnica security, 2013-05-09
+5, 9, weather, 2013-05-09
+9, 5, san sebastian, 2013-05-09
+9, 4, vwr line, 2013-05-09
+7, 7, entropy thermodynamics, 2013-05-09
+5, 9, borgia, 2013-05-09
+5, 9, lucrezia, 2013-05-09
+5, 9, spartacus, 2013-05-09
+9, 5, existentialism, 2013-05-09
+8, 1, image search best technology, 2013-05-09
+7, 9, dopamine, 2013-05-09
+9, 8, john gotti, 2013-05-09
+7, 6, cervantes, 2013-05-09
+7, 9, supervised learning vs unsupervised learning, 2013-05-09
+8, 5, audi r8, 2013-05-09
+9, 7, audi s4 horse power?, 2013-05-09
+8, 8, roman architecture, 2013-05-09
+7, 7, relativity, 2013-05-09
+5, 9, SoC, 2013-05-09
+5, 5, mercedez super class, 2013-05-09
+5, 7, carrera, 2013-05-09
+5, 8, liverpool, 2013-05-09
+5, 5, je t'aime, 2013-05-09
+3, 5, je t'aime lara fabian, 2013-05-09
+5, 9, blackberry q10 review, 2013-05-09
+5, 9, prolog tutorial for noobs, 2013-05-09
+7, 5, amazonas, 2013-05-09
+2, 8, humburgers, 2013-05-09
+1, 1, what is the secret behind bing, 2013-05-09
+8, 8, what is the secret behind google, 2013-05-09
+8, 6, neural networks, 2013-05-09
+7, 5, Maradona, 2013-05-09
+6, 8, ferguson, 2013-05-09
+7, 9, jordans, 2013-05-09
+4, 6, shorty the dog, 2013-05-12
+7, 7, phoenix jones, 2013-05-12
+4, 6, deep green resistance, 2013-05-12
+6, 6, matplotlib, 2013-05-12
+4, 7, jie wei, 2013-05-12
+7, 2, mitchell verter, 2013-05-12
+2, 6, simon critchley, 2013-05-12
+2, 7, zapatista, 2013-05-12
+3, 7, Ricardo Flores Magon, 2013-05-12
+6, 6, zoloft, 2013-05-12
+4, 6, anarchism, 2013-05-12
+4, 6, ghost dog, 2013-05-12
+3, 7, bob black, 2013-05-12
+4, 7, jimmy stewart, 2013-05-12
+6, 7, conditional random field, 2013-05-12
+6, 7, hidden markov matrix, 2013-05-12
+5, 6, emmanuel levinas, 2013-05-12
+5, 5, martin heidegger, 2013-05-12
+7, 7, kropotkin, 2013-05-12
+5, 7, morozov, 2013-05-12
+5, 5, django vs ruby, 2013-05-12
+5, 5, I am 16 and pregnant, 2013-05-12
+5, 5, qcompleter, 2013-05-12
+7, 7, best school for computer science, 2013-05-12
+4, 6, on the media, 2013-05-12
+5, 6, how to quit smoking, 2013-05-12
+6, 4, black block, 2013-05-12
+5, 5, how to find happiness, 2013-05-12
+6, 7, sun wukong, 2013-05-12
+7, 4, trickster monkey, 2013-05-12
+5, 5, trickstermonkey, 2013-05-12
+5, 4, nagarjuna, 2013-05-12
+4, 7, boddhisatva vow, 2013-05-12
+7, 6, prolog programming, 2013-05-12
+7, 5, hottest computer trends, 2013-05-12
+4, 7, what is love, 2013-05-12
+7, 4, mother's day, 2013-05-12
+5, 5, terrorism, 2013-05-12
+5, 5, chechnya, 2013-05-12
+6, 6, cipo rfm, 2013-05-12
+4, 4, quack, 2013-05-12
+5, 5, 42, 2013-05-12
+4, 6, emacs , 2013-05-12
+5, 5, machine learning, 2013-05-12
+5, 5, backtracking, 2013-05-12
+5, 5, homework answers, 2013-05-12
+6, 6, iterated prisoner's dillema, 2013-05-12
